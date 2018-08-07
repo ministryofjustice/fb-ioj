@@ -42,6 +42,8 @@
       "hint": "Issued with the original application, 7 numbers (for example, 6123456)",
       "label": "Means Assessment Administration Tool (MAAT) number",
       "name": "maat",
+      "repeatable": true,
+      "repeatableAdd": "Add another MAAT number",
       "validation": {
         "pattern": "^\\d{7}$",
         "required": {
