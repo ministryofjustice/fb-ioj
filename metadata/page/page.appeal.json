@@ -1,12 +1,7 @@
 {
   "_id": "page.appeal",
-  "_type": "page.form",
+  "_type": "page.singlequestion",
   "components": [
-    {
-      "_id": "page.appeal--intro",
-      "_type": "content",
-      "html": "For each decision you’re appealing against, tell us the offence and the reason(s) for the appeal "
-    },
     {
       "_id": "page.appeal--fieldset",
       "_type": "fieldset",
@@ -16,13 +11,17 @@
           "_type": "text",
           "hint": "The offence you’re appealing (for example, common assault)",
           "label": "Offence type",
+          "labelhide": true,
           "name": "offencetype"
         },
         {
           "_id": "page.appeal--offence-date",
           "_type": "date",
-          "label": "Date of offence (optional)",
-          "name": "offencedate"
+          "label": "Date of offence",
+          "name": "offencedate",
+          "validation": {
+            "required": false
+          }
         },
         {
           "_id": "page.appeal--offence-reasons",
@@ -36,9 +35,9 @@
       "model": "offence",
       "repeatable": true,
       "repeatableAdd": "Add another offence and reason for appeal",
-      "repeatableHeading": "About the offence"
+      "repeatableHeading": "Reasons for appealing",
+      "repeatableLede": "For each decision you’re appealing against, tell us the offence and the reason(s) for the appeal"
     }
   ],
-  "heading": "Reasons for appealing",
   "url": "/appealreasons"
 }
