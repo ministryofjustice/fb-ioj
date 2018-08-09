@@ -1,10 +1,10 @@
 {
-  "_id": "pageDocumentation",
+  "_id": "page.documentation",
   "_type": "page.singlequestion",
   "components": [
     {
-      "_id": "pageDocumentation--documentation",
-      "_type": "text",
+      "_id": "page.documentation--documentation",
+      "_type": "fileupload",
       "label": "Attach any documentation that supports your appeal",
       "name": "documentation"
     }

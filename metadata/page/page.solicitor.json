@@ -1,31 +1,31 @@
 {
-  "_id": "pageSolicitor",
+  "_id": "page.solicitor",
   "_type": "page.form",
   "components": [
     {
-      "_id": "pageSolicitor--fullname",
+      "_id": "page.solicitor--fullname",
       "_type": "text",
       "label": "Full name",
       "name": "solicitor-fullname"
     },
     {
-      "_id": "pageSolicitor--firm",
+      "_id": "page.solicitor--firm",
       "_type": "text",
-      "label": "Firm (optional)",
+      "label": "Firm",
       "name": "solicitor-firm",
       "validation": {
         "required": false
       }
     },
     {
-      "_id": "pageSolicitor--email",
+      "_id": "page.solicitor--email",
       "_type": "email",
       "hint": "We’ll use this to send you a copy of your application, and to contact you with a decision ",
       "label": "Email address",
       "name": "solicitor-email"
     },
     {
-      "_id": "pageSolicitor--lapan",
+      "_id": "page.solicitor--lapan",
       "_type": "text",
       "hint": "6 characters, letters and numbers (for example, 1A234B)",
       "label": "Legal aid provider account number",

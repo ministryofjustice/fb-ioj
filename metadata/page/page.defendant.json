@@ -1,15 +1,15 @@
 {
-  "_id": "pageDefendant",
+  "_id": "page.defendant",
   "_type": "page.form",
   "components": [
     {
-      "_id": "pageDefendant--fullname",
+      "_id": "page.defendant--fullname",
       "_type": "text",
       "label": "Full name",
       "name": "fullname"
     },
     {
-      "_id": "pageDefendant--dob",
+      "_id": "page.defendant--dob",
       "_type": "date",
       "hint": "For example 31 3 1980",
       "label": "Date of birth",

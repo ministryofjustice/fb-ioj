@@ -1,0 +1,36 @@
+{
+  "_id": "page.maat",
+  "_type": "page.singlequestion",
+  "body": "{usn, select, undefined{As you did not enter a USN, you must enter a MAAT number} other{}}",
+  "components": [
+    {
+      "_id": "page.maat--text",
+      "_type": "text",
+      "errors": {
+        "pattern": {
+          "inline": "Your answer should be 7 numbers",
+          "summary": "Your answer should be 7 numbers"
+        }
+      },
+      "label": "MAAT number",
+      "name": "maat",
+      "repeatable": true,
+      "repeatableAdd": "Add another MAAT number",
+      "repeatableHeading": "Means Assessment Administration Tool (MAAT) number",
+      "repeatableLede": "Issued with the original application, 7 numbers (for example, 6123456)",
+      "repeatableMaximum": 10,
+      "validation": {
+        "pattern": "^\\d{7}$",
+        "required": {
+          "identifier": "usn",
+          "negated": true,
+          "operator": "match",
+          "value": "^2\\d{6}$"
+        }
+      },
+      "widthClassInput": "one-quarter"
+    }
+  ],
+  "sectionHeading": "Case details",
+  "url": "maat"
+}
