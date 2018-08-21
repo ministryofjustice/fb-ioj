@@ -1,7 +1,6 @@
 {
   "_id": "page.maat",
   "_type": "page.singlequestion",
-  "body": "{usn, select, undefined{As you did not enter a USN, you must enter a MAAT number} other{}}",
   "components": [
     {
       "_id": "page.maat--text",
