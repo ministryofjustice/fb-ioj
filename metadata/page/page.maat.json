@@ -22,10 +22,9 @@
       "validation": {
         "pattern": "^\\d{7}$",
         "required": {
-          "identifier": "usn",
-          "negated": true,
-          "operator": "match",
-          "value": "^2\\d{6}$"
+          "identifier": "hasusn",
+          "operator": "is",
+          "value": "no"
         }
       },
       "widthClassInput": "one-quarter"

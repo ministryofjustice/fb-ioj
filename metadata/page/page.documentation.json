@@ -6,7 +6,10 @@
       "_id": "page.documentation--documentation",
       "_type": "fileupload",
       "label": "Attach any documentation that supports your appeal",
-      "name": "documentation"
+      "name": "documentation",
+      "validation": {
+        "required": false
+      }
     }
   ],
   "url": "/documentation"

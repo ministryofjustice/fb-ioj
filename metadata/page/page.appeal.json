@@ -12,13 +12,13 @@
           "hint": "The offence you’re appealing (for example, common assault)",
           "label": "Offence type",
           "labelhide": true,
-          "name": "offencetype"
+          "name": "type"
         },
         {
           "_id": "page.appeal--offence-date",
           "_type": "date",
           "label": "Date of offence",
-          "name": "offencedate",
+          "name": "date",
           "validation": {
             "required": false
           }
