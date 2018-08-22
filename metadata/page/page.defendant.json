@@ -4,9 +4,8 @@
   "components": [
     {
       "_id": "page.defendant--fullname",
-      "_type": "text",
-      "label": "Full name",
-      "name": "fullname"
+      "_isa": "text.fullname",
+      "_type": "text"
     },
     {
       "_id": "page.defendant--dob",
