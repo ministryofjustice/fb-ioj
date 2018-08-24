@@ -18,14 +18,10 @@
       "hint": "Issued with the original application, 7 numbers starting with 2 (for example, 2123456)",
       "label": "Unique submission number (USN)",
       "name": "usn",
-      "show": {
-        "identifier": "hasusn",
-        "operator": "is",
-        "value": "yes"
-      },
       "validation": {
-        "maximum": 3000000,
-        "minimum": 2000000
+        "maximum": 2999999,
+        "minimum": 2000000,
+        "required": false
       },
       "widthClassInput": "one-quarter"
     }

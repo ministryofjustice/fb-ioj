@@ -8,7 +8,7 @@
       "errors": {
         "pattern": {
           "inline": "Your answer should be 7 numbers",
-          "summary": "Your answer should be 7 numbers"
+          "summary": "Your answer for “{control}” should be 7 numbers"
         }
       },
       "label": "MAAT number",
@@ -21,9 +21,9 @@
       "validation": {
         "pattern": "^\\d{7}$",
         "required": {
-          "identifier": "hasusn",
-          "operator": "is",
-          "value": "no"
+          "identifier": "usn",
+          "negated": true,
+          "operator": "defined"
         }
       },
       "widthClassInput": "one-quarter"

@@ -1,11 +1,10 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "Use this service to appeal a decision to refuse legal aid to a defendant on the grounds it’s in the ‘interests of justice’.\r\n\r\nThis service is the online version of the form ‘Application to appeal grant of legal aid refused on ‘interests of justice criteria’.\r\n\r\n### Before you start\r\n\r\nIf the defendant’s (or their partner’s) financial circumstances have changed since the original legal aid application, you’ll also need to fill in and send the relevant [criminal legal aid application form](https://www.gov.uk/government/publications/criminal-legal-aid-application-forms) (CRM14, CRM15 or CRM15C).\r\n\r\nRead ‘Guidance for CRM14 and CRM15’ on the forms page to find out which form(s) you’ll need.",
+  "body": "Use this service to appeal a decision to refuse legal aid to a defendant on the grounds it’s in the ‘interests of justice’.\r\n\r\nThis service is the online version of the form ‘Application to appeal grant of legal aid refused on ‘interests of justice criteria’.\r\n\r\n### Before you start\r\n\r\nIf the defendant’s (or their partner’s) financial circumstances have changed since the original legal aid application, you’ll also need to fill in and send the relevant [criminal legal aid application forms](https://www.gov.uk/government/publications/criminal-legal-aid-application-forms) (CRM14, CRM15 or CRM15C).\r\n\r\nRead ‘Guidance for CRM14 and CRM15’ on the [forms page](https://www.gov.uk/government/publications/criminal-legal-aid-application-forms) to find out which forms you’ll need.",
   "heading": "Appeal a refusal of criminal legal aid",
   "lede": "",
   "steps": [
-    "page.hasusn",
     "page.usn",
     "page.maat",
     "page.defendant",

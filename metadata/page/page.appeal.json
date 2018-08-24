@@ -17,6 +17,7 @@
         {
           "_id": "page.appeal--offence-date",
           "_type": "date",
+          "hint": "For example, 31 3 1980",
           "label": "Date of offence",
           "name": "date",
           "validation": {
@@ -27,16 +28,16 @@
           "_id": "page.appeal--offence-reasons",
           "_type": "textarea",
           "hint": "New or extra information that was not in the original application (include as much detail as possible)",
-          "label": "Reason(s) for appeal",
+          "label": "Reasons for appeal",
           "name": "reasons"
         }
       ],
       "legend": "Offence",
       "model": "offence",
       "repeatable": true,
-      "repeatableAdd": "Add another offence and reason for appeal",
+      "repeatableAdd": "Add another offence",
       "repeatableHeading": "Reasons for appealing",
-      "repeatableLede": "For each decision you’re appealing against, tell us the offence and the reason(s) for the appeal"
+      "repeatableLede": "For each decision you’re appealing against, tell us the offence and the reasons for the appeal"
     }
   ],
   "url": "/appealreasons"

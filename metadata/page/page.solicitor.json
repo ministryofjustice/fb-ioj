@@ -5,7 +5,8 @@
     {
       "_id": "page.solicitor--fullname",
       "_isa": "text.fullname",
-      "_type": "text"
+      "_type": "text",
+      "name": "solicitor_fullname"
     },
     {
       "_id": "page.solicitor--firm",
@@ -21,17 +22,27 @@
       "_type": "email",
       "hint": "We’ll use this to send you a copy of your application, and to contact you with a decision ",
       "label": "Email address",
-      "name": "email"
+      "name": "solicitor_email"
     },
     {
       "_id": "page.solicitor--lapan",
       "_type": "text",
+      "errors": {
+        "minLength": {
+          "inline": "Your answer should be 6 characters (for example, 1A234B)",
+          "summary": "Your answer for “{control}” should be 6 characters"
+        },
+        "required": {}
+      },
       "hint": "6 characters, letters and numbers (for example, 1A234B)",
       "label": "Legal aid provider account number",
-      "name": "lapan"
+      "name": "lapan",
+      "validation": {
+        "maxLength": 6,
+        "minLength": 6
+      }
     }
   ],
   "heading": "Solicitor’s details",
-  "model": "solicitor",
   "url": "/solicitor"
 }

@@ -10,7 +10,7 @@
     {
       "_id": "page.defendant--dob",
       "_type": "date",
-      "hint": "For example 31 3 1980",
+      "hint": "For example, 31 3 1980",
       "label": "Date of birth",
       "name": "dob"
     }
