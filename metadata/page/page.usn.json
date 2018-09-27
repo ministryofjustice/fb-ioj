@@ -4,23 +4,18 @@
   "components": [
     {
       "_id": "page.usn--text",
-      "_type": "number",
+      "_type": "text",
       "errors": {
-        "maximum": {
-          "inline": "Your answer should be 7 numbers starting with 2",
-          "summary": "Your answer should be 7 numbers starting with 2"
-        },
-        "minimum": {
-          "inline": "Your answer should be 7 numbers starting with 2",
-          "summary": "Your answer should be 7 numbers starting with 2"
+        "pattern": {
+          "inline": "Your answer should be 7 numbers",
+          "summary": "Your answer should be 7 numbers"
         }
       },
-      "hint": "Issued with the original application, 7 numbers starting with 2 (for example, 2123456)",
+      "hint": "Issued with the original CRM14 eForm application, 7 numbers (for example, 2123456)",
       "label": "Unique submission number (USN)",
       "name": "usn",
       "validation": {
-        "maximum": 2999999,
-        "minimum": 2000000,
+        "pattern": "^\\d{7}$",
         "required": false
       },
       "widthClassInput": "one-quarter"

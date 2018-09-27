@@ -13,9 +13,7 @@
       "_type": "text",
       "label": "Firm",
       "name": "firm",
-      "validation": {
-        "required": false
-      }
+      "validation": {}
     },
     {
       "_id": "page.solicitor--email",
@@ -32,14 +30,17 @@
           "inline": "Your answer should be 6 characters (for example, 1A234B)",
           "summary": "Your answer for “{control}” should be 6 characters"
         },
+        "pattern": {
+          "inline": "Enter a valid account number",
+          "summary": "Enter a valid account number"
+        },
         "required": {}
       },
       "hint": "6 characters, letters and numbers (for example, 1A234B)",
       "label": "Legal aid provider account number",
       "name": "lapan",
       "validation": {
-        "maxLength": 6,
-        "minLength": 6
+        "pattern": "^\\d[a-zA-Z]\\d{3}[a-zA-Z]$"
       }
     }
   ],
