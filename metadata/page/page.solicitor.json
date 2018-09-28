@@ -6,11 +6,23 @@
       "_id": "page.solicitor--fullname",
       "_isa": "text.fullname",
       "_type": "text",
+      "errors": {
+        "required": {
+          "inline": "Enter the solicitor's full name",
+          "summary": "Enter the solicitor's full name"
+        }
+      },
       "name": "solicitor_fullname"
     },
     {
       "_id": "page.solicitor--firm",
       "_type": "text",
+      "errors": {
+        "required": {
+          "inline": "Enter the solicitor's firm",
+          "summary": "Enter the solicitor's firm"
+        }
+      },
       "label": "Firm",
       "name": "firm",
       "validation": {}
@@ -18,6 +30,12 @@
     {
       "_id": "page.solicitor--email",
       "_type": "email",
+      "errors": {
+        "required": {
+          "inline": "Enter the solicitor's email address",
+          "summary": "Enter the solicitor's email address"
+        }
+      },
       "hint": "We’ll use this to send you a copy of your application, and to contact you with a decision ",
       "label": "Email address",
       "name": "solicitor_email"
@@ -31,10 +49,13 @@
           "summary": "Your answer for “{control}” should be 6 characters"
         },
         "pattern": {
-          "inline": "Enter a valid account number",
-          "summary": "Enter a valid account number"
+          "inline": "Enter the legal aid account number in the right format",
+          "summary": "Enter the legal aid account number in the right format"
         },
-        "required": {}
+        "required": {
+          "inline": "Enter the legal aid provider account number",
+          "summary": "Enter the legal aid provider account number"
+        }
       },
       "hint": "6 characters, letters and numbers (for example, 1A234B)",
       "label": "Legal aid provider account number",

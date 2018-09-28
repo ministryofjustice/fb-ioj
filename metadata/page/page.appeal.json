@@ -9,6 +9,12 @@
         {
           "_id": "page.appeal--offence",
           "_type": "text",
+          "errors": {
+            "required": {
+              "inline": "Enter the offence type",
+              "summary": "Enter the offence type"
+            }
+          },
           "hint": "The offence you’re appealing (for example, common assault)",
           "label": "Offence type",
           "labelhide": true,
@@ -27,6 +33,12 @@
         {
           "_id": "page.appeal--offence-reasons",
           "_type": "textarea",
+          "errors": {
+            "required": {
+              "inline": "Enter the reasons for appealing",
+              "summary": "Enter the reasons for appealing"
+            }
+          },
           "hint": "New or extra information that was not in the original application (include as much detail as possible)",
           "label": "Reasons for appeal",
           "name": "reasons"
