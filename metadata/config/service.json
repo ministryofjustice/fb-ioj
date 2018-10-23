@@ -1,7 +1,10 @@
 {
   "_id": "service",
   "_type": "config.service",
+  "code": "IOJ",
+  "defaultCCAddress": "solicitor_email",
   "name": "Interests of Justice",
   "phase": "alpha",
-  "phaseText": "Send your feedback here"
+  "phaseText": "Send your feedback here",
+  "title": "Application against a refusal of criminal legal aid on interests of justice grounds"
 }
