@@ -3,6 +3,8 @@
   "_type": "config.service",
   "code": "IOJ",
   "defaultCCAddress": "solicitor_email",
+  "emailTeam": "Please find an application attached",
+  "emailUser": "A copy of your application is attached",
   "name": "Interests of Justice",
   "phase": "alpha",
   "phaseText": "Send your feedback here",
