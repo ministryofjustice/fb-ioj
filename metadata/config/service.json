@@ -8,7 +8,8 @@
   "emailTemplateTeam": "Please find an application attached",
   "emailTemplateUser": "Dear {fullname}\r\n\r\nA copy of your IoJ application is attached.",
   "name": "Interests of Justice",
+  "pdfHeading": "Application against a refusal of criminal legal aid on interests of justice grounds",
+  "pdfSubHeading": "IOJ",
   "phase": "alpha",
-  "phaseText": "Send your feedback here",
-  "title": "Application against a refusal of criminal legal aid on interests of justice grounds"
+  "phaseText": "Send your feedback here"
 }
