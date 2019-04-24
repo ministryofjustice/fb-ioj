@@ -45,7 +45,7 @@
         }
       ],
       "legend": "Offence",
-      "model": "offence",
+      "namespace": "offence",
       "repeatable": true,
       "repeatableAdd": "Add another offence",
       "repeatableHeading": "Reasons for appealing",
