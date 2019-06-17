@@ -11,5 +11,6 @@
   "pdfHeading": "Application against a refusal of criminal legal aid on interests of justice grounds",
   "pdfSubHeading": "IOJ",
   "phase": "alpha",
-  "phaseText": "Send your feedback here"
+  "phaseText": "Send your feedback here",
+  "_isa": "@ministryofjustice/fb-components-core=>service"
 }
