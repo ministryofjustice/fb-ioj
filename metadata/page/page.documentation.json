@@ -10,7 +10,8 @@
       "name": "documentation",
       "validation": {
         "required": false
-      }
+      },
+      "accept": ["image/png"]
     }
   ],
   "url": "/documentation"
