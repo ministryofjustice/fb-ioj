@@ -7,6 +7,7 @@
   "emailSubjectUser": "Your IoJ application has been submitted",
   "emailTemplateTeam": "Please find an application attached",
   "emailTemplateUser": "Dear {fullname}\r\n\r\nA copy of your IoJ application is attached.",
+  "attachUserSubmission": true,
   "name": "Interests of Justice",
   "pdfHeading": "Application against a refusal of criminal legal aid on interests of justice grounds",
   "pdfSubHeading": "IOJ",
