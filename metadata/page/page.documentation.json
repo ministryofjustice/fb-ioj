@@ -4,7 +4,7 @@
   "components": [
     {
       "_id": "page.documentation--documentation",
-      "_type": "fileupload",
+      "_type": "upload",
       "label": "Attach any documentation that supports your appeal",
       "multiple": true,
       "name": "documentation",
@@ -13,5 +13,8 @@
       }
     }
   ],
-  "url": "/documentation"
+  "url": "/documentation",
+  "steps": [
+    "page.documentation-upload-check"
+  ]
 }
