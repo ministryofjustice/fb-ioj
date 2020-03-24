@@ -6,6 +6,7 @@
       "_id": "page.documentation--documentation",
       "_type": "upload",
       "label": "Attach any documentation that supports your appeal",
+      "hint": "You can upload your receipts as scanned copies or photos of the originals",
       "multiple": true,
       "name": "documentation",
       "validation": {
